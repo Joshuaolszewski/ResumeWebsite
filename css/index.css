@@ -1,9 +1,22 @@
+img {
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(84, 84, 84);
+}
+
+body {
+    margin: 0px; 
+}
+
 header h1{
     text-align: center;
+    font-size: 40px; 
 }
 
 footer {
     clear:both;
+    padding: 20px;
+    text-align: center; 
+    background: grey; 
 }
 
 .navbar ul{
@@ -30,11 +43,29 @@ footer {
     float: left;
 }
 
-#portrait{
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.side {
+    flex: 20%; 
+    max-width: fit-content;
+    background-color: #f1f1f1; 
+    padding: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    flex: 70%; 
+    background-color: rgb(255, 255, 255); 
+    padding-left: 20px; 
+}
+
+
+
+
+
 
 
 
